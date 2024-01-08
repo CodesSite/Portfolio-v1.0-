@@ -1,0 +1,24 @@
+@keyframes html{
+	0%{ width: 0%; }
+	100%{ width: 90%; }
+}
+
+@keyframes css{
+	0%{ width: 0%; }
+	100%{ width: 80%; }
+}
+
+@keyframes bootstrap{
+	0%{ width: 0%; }
+	100%{ width: 85%; }
+}
+
+@keyframes js{
+	0%{ width: 0%; }
+	100%{ width: 35%; }
+}
+
+@keyframes php{
+	0%{ width: 0%; }
+	100%{ width: 10%; }
+}

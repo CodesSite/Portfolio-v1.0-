@@ -1,0 +1,382 @@
+*{
+	font-family: "Oswald Regular";
+}
+
+nav{
+	height: auto;
+}
+
+li{
+	list-style: none;
+}
+
+footer{
+	color: #fff;
+	background: #202020;
+}
+
+textarea{
+	width: 40px;
+}
+
+/*NAVBAR START*/
+.navbar-brand{
+	font-family: "Raleway ExtraBold";
+	font-size: 24px;
+}
+
+.navbar-toggler{
+	color: #fff;
+}
+
+.nav-link{
+	font-size: 18px;
+	color: #fff;
+}
+
+.nav-link:hover{
+	color: #fff;
+	background: #e25050;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-size: 100%, 100%;
+	border-radius: 50%;
+	background-color: #202020;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+#header-text{
+	text-transform: uppercase;
+}
+
+#header-text h4{
+	padding: 10px 10px;
+	width: 200px;
+	font-size: 19px;
+	background: #e25050;
+}
+
+#header-text h2{
+	padding: 10px 10px;
+	width: 325px;
+	font-size: 30px;
+	font-weight: bold;
+	background: #202020;
+	opacity: 0.8;
+}
+
+#header-text h3{
+	padding: 10px 10px;
+	width: 235px;
+	font-size: 24px;
+	background: #202020;
+	opacity: 0.8;
+}
+/*NAVBAR THE-END*/
+
+/*FEATURSE START*/
+.features-title h1{
+	color: #000;
+	font-weight: bold;
+}
+
+.features-title span{
+	color: #e25050;
+}
+
+.features-title p{
+	font-size: 16px;
+	font-family: "Droid Serif Italic";
+}
+
+.features p{
+	color: #777;
+	font-size: 13px;
+	font-family: "Open Sans Regular";
+}
+/*FEATURSE THE-END*/
+
+/*OUR TEAM START*/
+#our-team-bg{
+	height: auto;
+	background: url(../img/our-team-bg.jpg);
+}
+
+.our-team-title h1{
+	font-family: "Oswald Regular"; 
+	font-weight: bold;
+}
+
+.team-box{
+	position: relative;
+	width: 270px;
+	height: 314px;
+	background-color: #8e8e8e;
+}
+
+.imgBx{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.imgBx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.team-box:hover .imgBx img{
+	opacity: 0;
+}
+
+.team-info{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 25%;
+	color: #000;
+	background: #fff;
+	overflow: hidden;
+	transition: 0.5s;
+
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.team-info h4{
+	font-family: "Oswald Bold";
+	font-size: 18px;
+}
+
+.team-info h5{
+	color: #afafaf;
+	font-size: 15px;
+}
+
+.team-info p{
+	color: #afafaf;
+	text-transform: none;
+}
+
+.team-info div li i{
+	color: #afafaf;
+} 
+
+.team-box:hover .team-info{
+	width: 100%;
+	height: 100%;
+}
+/*OUR TEAM THE-END*/
+
+/*PRICING START*/
+.pricing-bg{
+	color: #fff;
+	height: auto;
+	background: #e25050;
+}
+
+.pricing-bg h1{
+	font-size: 25px;
+	font-family: "Oswald Regular"; 
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.pricing-bg h2{
+	font-size: 40px;
+	font-family: "Oswald Regular"; 
+	font-weight: bold;
+}
+
+.pricing-col{
+	width: 370px;
+	height: 500px;
+	background: #d14343;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.pricing-col:hover{
+	background: #e25050;
+	border: 2px solid #fff;
+}
+
+.pricing-col p{
+	font-size: 14px;
+	font-family: "Open Sans Regular";
+	text-transform: capitalize;
+}
+
+.pricing-col button{
+	width: 230px;
+	height: 54px;
+	color: #fff;
+	border: none;
+	font-size: 21px;
+	font-family: "Oswald Regular";
+	font-weight: bold;
+	background: #e25050;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.pricing-col button:hover{
+	background: #fff;
+	color: #e25050;
+}
+
+.partners-carousel-title{
+	font-family: "Oswald Bold";
+}
+/*PRICING THE-END*/
+
+/*FOOTER START*/
+.footer-top p{
+	font-size: 15px;
+	font-family: "Oswald Light";
+}
+
+.footer-top span{
+	color: #717171;
+	font-family: "Oswald Light";
+}
+
+.footer-social i{
+	margin-left: 15px;
+}
+
+.footer-social i:hover{
+	color: #e25050;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.info-about h1{
+	padding-bottom: 30px;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: "Oswald Regular"; 
+	font-weight: bold;
+}
+
+.info-about p{
+	color: #c6c6c6;
+	line-height: 20px;
+	font-size: 15px;
+	font-family: "Oswald Light";
+	word-spacing: 2px;
+}
+
+.footer-info ul{
+	padding: 0;
+	margin-top: 30px;
+}
+
+.footer-info ul li a{
+	margin-left: 10px;
+	color: #c6c6c6;
+	font-family: "Open Sans Regular";
+}
+
+.footer-message h1{
+	padding-bottom: 30px;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: "Oswald Regular"; 
+	font-weight: bold;
+}
+
+.form-control{
+	color: #656565;
+	border-radius: 0px;
+	border: 1px solid #656565;
+	background: transparent;
+	text-transform: uppercase;
+}
+
+#send-message{
+	margin-top: 30px;
+}
+
+.snd{
+	margin-left: 10px;
+}
+
+.snd p{
+	padding-top: 10px;
+	color: #656565;
+	font-size: 15px;
+	font-family: "Oswald Light";
+}
+
+#send-message button{
+	width: 230px;
+	height: 40px;
+	padding: 10px 12px;
+	color: #fff;
+	border: none;
+	background: #e25050;
+	text-transform: uppercase;
+}
+
+.footer-copyright{
+	color: #656565;
+	font-family: "Oswald Light";
+}
+
+.footer-copyright a{
+	text-decoration: underline;
+	font-family: "Oswald Light";
+}
+/*FOOTER END*/
+
+@media (max-width: 991px){
+	#header-text{
+		display: none;
+	}
+}
+
+@font-face {
+ font-family: "Oswald Bold";
+ src: url("../font-family/Oswald-Bold.otf");
+}
+
+@font-face {
+ font-family: "Oswald Light";
+ src: url("../font-family/Oswald-Light.otf");
+}
+
+@font-face {
+ font-family: "Oswald Regular";
+ src: url("../font-family/Oswald Regular.ttf");
+}
+
+@font-face {
+ font-family: "Open Sans Regular";
+ src: url("../font-family/Open Sans Regular.ttf");
+}
+
+@font-face {
+ font-family: "Droid Serif Italic";
+ src: url("../font-family/Droid Serif Italic.ttf");
+}
+
+@font-face {
+ font-family: "Raleway ExtraBold";
+ src: url("../font-family/Raleway.ttf");
+}
